@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>electron++</title>
+        <script src="./module/CppWebExploration.js" defer></script>
+    </head>
+
+    <script type="module">
+        import App from './app.js';
+        window.app = new App();
+    </script>
+    <script>
+        var Module = {
+            onRuntimeInitialized: function() {
+                app.start(Module);
+            }
+        };
+    </script>
+    <body>
+    </body>
+
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "explore-cppweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^10.1.5"
+  },
+  "dependencies": {}
+}
