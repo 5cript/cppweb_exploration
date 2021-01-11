@@ -6,7 +6,7 @@ The repo does not aim to be clean and working on setups other than mine. Its a s
 # Dependencies
 
 (all one folder up  of this)
-../jsbind https://github.com/daminetreg/js-bind
-../cpp-pre/type_traits https://github.com/cpp-pre/type_traits
-emsdk
-../cppdom https://github.com/5cript/cppdom
+- ../jsbind https://github.com/daminetreg/js-bind
+- ../cpp-pre/type_traits https://github.com/cpp-pre/type_traits
+- emsdk
+- ../cppdom https://github.com/5cript/cppdom
